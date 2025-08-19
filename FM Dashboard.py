@@ -10,7 +10,7 @@ from Players_Scouting_Analyse import main as player_scouting_analyser
 from team_lineup import main as team_lineup_planner
 
 # Sidebar Navigatie
-st.sidebar.title("⚽ FM Analyse Menu")"
+st.sidebar.title("⚽ FM Analyse Menu")
 keuze = st.sidebar.radio(
     "Kies een module:",
     [
